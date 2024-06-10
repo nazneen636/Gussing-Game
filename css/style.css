@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    background-color: rgb(233, 175, 175);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../image/mbackground.jpg) no-repeat bottom / cover;
+    position: relative;
+}
+.box1, .box2, .box3, .box4, .box5, .box6{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 25px 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+.box1{
+    display: flex;
+}
+.heading{
+    margin-bottom: 22px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.sub-heading {
+    margin-bottom: 22px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+}
+input{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 198, 198);
+    outline: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 18px;
+}
+.input-error{
+    position: relative;
+    width: 100%;
+}
+.input-error span {
+    position: absolute;
+    left: 5px;
+    bottom: 11%;
+    color: rgb(191, 6, 6);
+    font-size: 17px;
+}
+.btn{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    background-color: green;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    transition: .4s;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(208, 241, 208);
+    color: green;
+    border-color: green;
+}
+.chance{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.box4 .heading{
+    margin-bottom: 10px;
+    padding: 0;
+}
+.box5 .btn{
+    width: 55%;
+}
+.winner-num{
+    text-align: center;
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 73%;
+    color: rgb(209, 65, 65);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffffff;
+    padding: 15px 12px;
+    border-radius: 5px;
+    transform: translateX(-50%);
+}
+.box5{
+    background-color: black;
+}
+.box5 .winner-trophy{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    column-gap: 10px;
+}
+.box5 .btn-div{
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+}
+.box5 .heading{
+    font-size: 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 6px #e46a0c;
+    color: rgb(231, 226, 237);
+    text-align: center;
+}

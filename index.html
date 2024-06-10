@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="container">
+        <!-- =========box-1 start============= -->
+    <div class="box1">
+        <h1 class="heading">Player One</h1>
+        <div class="input-error">
+            <input type="text" placeholder="Enter Your Name">
+            <span></span>
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+    <!-- =========box-1 end============= -->
+     
+
+    <!-- =========box-2 start============= -->
+    <div class="box2">
+        <h1 class="heading"></h1>
+        <div class="input-error">
+            <input type="password" autocomplete="new-password" placeholder="Enter number 0 to 20">
+            <span></span>
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+    <!-- =========box-2 end============= -->
+
+    <!-- =========box-3 start============= -->
+    <div class="box3">
+        <h1 class="heading">Player two</h1>
+        <div class="input-error">
+            <input type="numbers" placeholder="Enter Your Name">
+            <span></span>
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+    <!-- =========box-3 end============= -->
+
+    <!-- =========box-4 start============= -->
+    <div class="box4">
+        <h1 class="heading"></h1>
+        <p class="chance"></p>
+        <div class="input-error">
+            <input type="numbers" placeholder="Guess the Number">
+            <span></span>
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+    <!-- =========box-4 end============= -->
+
+    <!-- =========box-5 start============= -->
+    <div class="box5">
+        <h2 class="sub-heading">winner of the match is: </h2>
+        <div class="winner-trophy">
+            <h1 class="heading"></h1>
+            <img style="width: 50px;" src="image/trophy1.png">
+        </div>
+        <div class="btn-div">
+            <button class="btn" id="numBtn">Show Number</button>
+            <button type="reset" class="btn" id="pAgainBtn">Play again</button>
+        </div>
+    </div>
+    <!-- =========box-5 end============= -->
+    <div class="box6 winner-num"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
